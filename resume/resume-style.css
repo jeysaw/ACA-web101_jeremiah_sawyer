@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 5;
+    justify-content: center;
+    background-size: contain;
+
+    align-items: center;
+    background-image: url("resbackg.jpg")
+}
+
+#maincontainer {
+    display: grid;
+    grid-template-columns: 14%, 14%, 24%, 24%, 24%;
+    grid-template-rows: 20%, 20%, 20%, 20%, 20%;
+}
+
+
+
+
+#rightcontainer {
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 6;
+    grid-row-start: span 3;
+    grid-column-start: span 2;
+}
+
+
+
+
+#work {
+   
+
+}
+#education { 
+   
+    
+}
+#languages { 
+    
+    
+    
+    }
+#references { 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
