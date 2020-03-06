@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 200pt;
+  }
+  
+  article {
+    border-color: blue;
+    border-style: solid;
+    border-width: 1pt;
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+  }
+  .item-one {
+      align-self: flex-start; 
+      order: 2;
+    }
+
+  .item-two{
+      order: 3;
+
+  }
+  }
+  .item-three {
+    order: 1;
+}
+
+/* div {
+
+    display: flex;
+    
+}
+p {
+    padding: 10px;
+} */
